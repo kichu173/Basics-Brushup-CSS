@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-div p{
+    padding: 10px 15px;
+    margin: 16px 20px;
+    height: 300px;
+    width: 65%;
+    border: 3px solid black;
+    display: none;
+}
+
+.align-div p {
+    display: inline-block;
+}
+
+.align-div p:hover {
+    border-color: red;
+}
